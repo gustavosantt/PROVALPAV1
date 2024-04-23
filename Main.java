@@ -1,9 +1,29 @@
 import javax.swing.*;
 import java.util.ArrayList;
 
+class Jogador {
+    private String nome;
+    private int votos;
 
+    public Jogador(String nome) {
+        this.nome = nome;
+        this.votos = 0;
+    }
 
-public class Jogador {
+    public String getNome() {
+        return nome;
+    }
+
+    public int getVotos() {
+        return votos;
+    }
+
+    public void incrementaUmVoto() {
+        this.votos++;
+    }
+}
+
+public class Main {
 
     public static void main(String[] args) {
         ArrayList<Jogador> jogadores = cadastrarJogadores();
