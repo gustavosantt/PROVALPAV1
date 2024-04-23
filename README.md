@@ -6,4 +6,4 @@ O processo de eliminação é uma parte crucial do reality show Big Brother Bras
 
 1 - Usuário realiza a votação atráves do nome de cada participante ( Foram Adicionados os valores atráves de Arraylist ).
 
-2 - Sistema Apura a quantidade de votos em cada pessoa e no final exibe a informação do Eliminado da vez.
+2 - Sistema Apura a quantidade de votos em determinada pessoa e no final exibe a informação do Eliminado da vez.
